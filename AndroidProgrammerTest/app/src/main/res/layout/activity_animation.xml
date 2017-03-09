@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:background="@color/background"
+    tools:context="com.apppartner.androidtest.animation.AnimationActivity">
+
+    <ImageView
+        android:id="@+id/imgAppPartner"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Bonus Feature Added - Can You Find It?"
+        android:textColor="@color/input_text"
+        android:textSize="14dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:background="@color/button_mango"
+        android:onClick="onFadeClicked"
+        android:text="@string/fade_button"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/button_text_size" />
+
+</RelativeLayout>

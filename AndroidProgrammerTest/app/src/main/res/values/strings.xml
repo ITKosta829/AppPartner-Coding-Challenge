@@ -1,0 +1,21 @@
+<resources>
+    <!-- General Strings-->
+    <string name="app_name">AndroidTest</string>
+
+    <!-- Main Screen Strings -->
+    <string name="activity_main_title">Coding Tasks</string>
+    <string name="activity_login">Log in</string>
+    <string name="activity_chat">Chat</string>
+    <string name="activity_animation">Animation</string>
+    <string name="company_photo_content_description">AppPartner Company Photo</string>
+    <string name="chat_button">CHAT</string>
+    <string name="login_button">LOG IN</string>
+    <string name="animation_button">ANIMATION</string>
+    <string name="fade_button">FADE</string>
+    <string name="login_name_hint">Username</string>
+    <string name="login_password_hint">Password</string>
+    <string name="dialog_ok_btn">OK</string>
+    <string name="alert_code">Error</string>
+    <string name="alert_message">Please Type Username and Password!</string>
+
+</resources>

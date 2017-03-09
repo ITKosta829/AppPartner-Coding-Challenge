@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:background="@color/background"
+    tools:context="com.apppartner.androidtest.login.LoginActivity">
+
+    <EditText
+        android:id="@+id/loginUserName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="48dp"
+        android:hint="@string/login_name_hint"
+        android:imeOptions="actionNext"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:textColor="@color/input_text"
+        android:textColorHint="@color/hint_text"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/loginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@id/loginUserName"
+        android:layout_marginTop="24dp"
+        android:hint="@string/login_password_hint"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:textColor="@color/input_text"
+        android:textColorHint="@color/hint_text"
+        android:textSize="16sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginPassword"
+        android:layout_marginTop="60dp"
+        android:background="@color/button_orange"
+        android:onClick="onLogInClicked"
+        android:text="@string/login_button"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/button_text_size" />
+
+
+</RelativeLayout>

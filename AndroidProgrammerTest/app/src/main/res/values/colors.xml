@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00AEBC</color>
+    <color name="colorPrimaryDark">#017F89</color>
+    <color name="colorAccent">#000000</color>
+    <color name="background">#ECEFF1</color>
+    <color name="chat_bubbles">#FFFFFF</color>
+    <color name="button_blue">#4474BA</color>
+    <color name="button_orange">#F26724</color>
+    <color name="button_mango">#F89A20</color>
+    <color name="chat_text">#747474</color>
+    <color name="hint_text">#9E9E9E</color>
+    <color name="input_text">#000000</color>
+</resources>
